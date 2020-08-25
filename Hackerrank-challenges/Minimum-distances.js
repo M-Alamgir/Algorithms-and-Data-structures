@@ -16,3 +16,21 @@ function minimumDistances(a) {
     }
     return minDist;
 }
+
+
+// the second solution
+
+function minimumDistances(a) {
+    let result = [];
+
+    for(let i = 0; i < a.length; i++){
+        let lastvalue = a.lastIndexOf(a[i]);
+
+        if(lastvalue !== i){
+            result.push(Math.abs(i - lastvalue));
+        }
+    }
+
+    return result.length>0 ? Math.min(...result) : -1;
+
+}
