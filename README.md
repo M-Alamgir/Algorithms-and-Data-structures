@@ -6,7 +6,7 @@ This is a list of coding challenges that I solved on Hackerrank and some of the 
 - Javascript
 
 ### Instructor
-- stephen grider
+:bust_in_silhouette: stephen grider
 
 ### Author
-- Alamgir
+:bust_in_silhouette: Alamgir
